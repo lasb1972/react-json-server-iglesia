@@ -1,0 +1,4 @@
+table, th,td {
+  border: 1px solid black;
+  /*border-collapse: collapse; Para eliminar dobles lineas en las celdas*/
+}
