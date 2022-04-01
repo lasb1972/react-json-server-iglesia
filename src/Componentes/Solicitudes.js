@@ -40,7 +40,7 @@ function Solicitudes (){
 
                 await axios({
                         method:'post',
-                        url:'http://localhost:3001/solicitantes',  
+                        url:'/solicitantes',  
                         data: json
                     })
                     .then((response)=>{
